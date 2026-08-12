@@ -56,13 +56,13 @@ nav{
  .h1{
   font-size:70px ;
   font-weight: bold; 
-  padding-top: 80px;
+  padding-top: 60px;
   padding-left: 150px;
  
 }
 .info{
   position:absolute;
-  top: 450px;
+  top: 400px;
 }
   .h3{
   font-size:30px ;
@@ -73,21 +73,9 @@ nav{
   .info p{
   font-size:20px ;
   font-weight: bold; 
-  padding-left: 150px;
+  padding-left:150px;
   width: 600px;
 }
-/*.link{
-  position: absolute;
-  top:600px;
-  padding:20px 150px;
-  z-index: 100px;
-}
-.link img{
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-
-}*/
 .link{
   display: flex;
   gap: 20px;
@@ -187,13 +175,12 @@ nav{
 }
 /*about*/
 #about{
-    height:auto;
+
     position: relative;
-    top:100px;
 }
  .hh1{
   background-color:transparent;
-  padding: 170px 60px 50px;
+  padding: 10px 60px 40px;
   color:#a1c5da;
 }
 .highlight{
@@ -435,6 +422,8 @@ button{
   color: #1B263B;
   padding: 2px;
   border-radius: 12px;
+  align-self:center;
+
 }
   
 label{
@@ -495,6 +484,8 @@ textarea{
  button{
     width:100%;
     padding:10px;
+    
 }
 
 }
+
